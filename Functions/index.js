@@ -2,10 +2,11 @@ const classicCodingGreetings = "Hello World!";
 let numberOne = 5;
 let numberTwo = 1;
 
+//classic function hence the function keyword
 function getGreeting(classicCodingGreetings) {
     return classicCodingGreetings;
 }
-
+//arrow function no function keyword
 let sumOfNumbers = (numberOne, numberTwo) => {
     return numberOne + numberTwo;
 }
